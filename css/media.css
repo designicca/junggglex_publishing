@@ -1,0 +1,450 @@
+@charset "UTF-8";
+/* Variable */
+/*------------------ media query all -------------------*/
+/* ----------------- max-width: 500px ----------------- */
+/* header */
+@media only screen and (max-width: 500px) {
+  /* line 17, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .banner {
+    /* about page banner text */ }
+    /* line 18, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner header {
+      margin: 10px 0 30px;
+      padding: 0 6%; }
+      /* line 23, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner header .left a img {
+        width: 105px;
+        margin-top: 25px; }
+      /* line 29, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner header .right {
+        display: none; }
+      /* line 32, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner header ul.center {
+        display: none; }
+      /* line 35, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner header .m_menu_bar {
+        display: inline-block;
+        margin-top: 4px;
+        padding: 0 3px;
+        float: right;
+        cursor: pointer; }
+        /* line 42, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .banner header .m_menu_bar a img {
+          width: 23px; }
+    /* line 48, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .banner_title_common, .banner h1.title, .banner .about_banner_t h1 {
+      font-size: 1.6rem; }
+    /* line 52, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner h1.title {
+      line-height: 40px;
+      font-size: 1.9rem;
+      padding: 100px 15px 0;
+      height: auto; }
+      /* line 58, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner h1.title br {
+        display: block; }
+    /* line 63, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .about_banner_t {
+      padding: 0 30px; }
+      /* line 65, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner .about_banner_t h1 {
+        font-size: 2rem; }
+      /* line 69, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner .about_banner_t h3 {
+        font-size: 1.1rem;
+        line-height: 24px; }
+    /* line 75, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .ad_banner_t h1 {
+      font-size: 1.9rem;
+      padding: 55px 15px 0; }
+    /* line 79, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .ad_banner_t h3 {
+      font-size: 1.1rem;
+      padding: 0 20px;
+      line-height: 28px;
+      margin: 20px 0; }
+    /* line 85, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .ad_banner_t h5 {
+      font-size: 0.85rem;
+      line-height: 24px;
+      padding: 0 15px; }
+      /* line 89, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .banner .ad_banner_t h5 br {
+        display: none; }
+    /* line 95, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .publisher_banner_t h1.title {
+      padding: 0 20px; }
+    /* line 98, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner .publisher_banner_t h3 {
+      padding: 0 20px;
+      font-size: 1.1rem;
+      line-height: 28px; }
+  /* line 105, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .banner_bg {
+    background-image: url(../img/banner_img.png); }
+    /* line 107, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner_bg video {
+      display: none; } }
+
+@media only screen and (max-height: 570px) {
+  /* line 118, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .banner header .m_menu_bar .modal-window ul.m_header {
+    display: block; }
+    /* line 120, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .banner header .m_menu_bar .modal-window ul.m_header li {
+      height: 55px;
+      line-height: 55px; }
+  /* line 125, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .banner header .m_menu_bar .modal-window .m_sns {
+    height: 55px;
+    line-height: 55px; } }
+
+/* footer */
+@media only screen and (max-width: 500px) {
+  /* line 137, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  footer {
+    padding: 40px 0; }
+    /* line 139, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    footer ul {
+      display: none; }
+    /* line 143, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    footer .sns a {
+      margin: 0 7px 22px; }
+    /* line 147, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    footer img {
+      width: 100px; } }
+
+/* main */
+@media only screen and (max-width: 500px) {
+  /* line 155, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .number {
+    margin: 30px auto; }
+    /* line 157, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .number .container {
+      width: auto;
+      display: inline-block; }
+      /* line 160, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .number .container .num_common {
+        width: 49%;
+        margin: 25px 0; }
+        /* line 163, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .number .container .num_common h1 {
+          font-size: 3.3rem; }
+        /* line 166, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .number .container .num_common h5 {
+          margin-top: 1.2rem; }
+  /* line 172, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .diagram {
+    padding-top: 15px; }
+    /* line 174, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .diagram h1 {
+      font-size: 1.5rem;
+      line-height: 36px;
+      padding: 0 12px; }
+    /* line 179, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .diagram h3 {
+      font-size: 1rem;
+      padding: 0 17px;
+      margin: 15px 0 40px; }
+      /* line 183, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .diagram h3 br {
+        display: none; }
+    /* line 187, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .diagram img.diagram {
+      display: none; }
+    /* line 190, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .diagram img.m_diagram {
+      display: block;
+      width: 95%;
+      margin: 0 auto; }
+  /* line 196, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .page_summary {
+    width: 100%;
+    margin-bottom: 0; }
+    /* line 199, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .page_summary .summary_common {
+      display: inline-block;
+      margin: 40px 0; }
+      /* line 202, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .page_summary .summary_common .info {
+        width: 90%;
+        text-align: center;
+        display: block;
+        margin: 0 auto; }
+        /* line 207, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .page_summary .summary_common .info h1 {
+          font-size: 1.6rem;
+          margin: 0; }
+        /* line 211, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .page_summary .summary_common .info img.m_page_summary_img {
+          display: block;
+          width: 75%;
+          margin: 30px auto 20px; }
+        /* line 216, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .page_summary .summary_common .info p {
+          font-size: 0.9rem;
+          margin-bottom: 30px; }
+        /* line 221, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .page_summary .summary_common .info a span {
+          font-size: 1rem; }
+      /* line 226, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .page_summary .summary_common .publishers_info {
+        padding: 0; }
+      /* line 229, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .page_summary .summary_common .diagram {
+        display: none; }
+  /* line 235, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .trusted img {
+    height: 50px;
+    margin: 0.5rem 1rem; }
+  /* line 241, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .contact_us h1 {
+    font-size: 1.6rem; }
+  /* line 244, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .contact_us h3 {
+    font-size: 0.9rem; }
+  /* line 248, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .contact_us .info h4 {
+    font-size: 0.8rem;
+    line-height: 25px;
+    padding: 0 12px; } }
+
+/* about, sign up */
+@media only screen and (max-width: 500px) {
+  /* line 259, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .about_bg {
+    background-size: 900px; }
+  /* line 263, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .section_about p {
+    width: inherit;
+    padding: 0 35px; }
+    /* line 266, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .section_about p br {
+      display: none; }
+  /* line 270, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .section_about h3 {
+    font-size: 1.37rem;
+    line-height: 36px; }
+  /* line 275, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .banner h1.m_signup_title {
+    height: initial;
+    padding-top: 90px; }
+  /* line 279, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .section_sign_up {
+    padding: 80px 5%; }
+    /* line 281, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .section_sign_up h1 {
+      font-size: 1.5rem;
+      line-height: 33px; }
+    /* line 286, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .section_sign_up a span {
+      margin: 45px 0 35px; }
+    /* line 290, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .section_sign_up h3 {
+      font-size: 0.9rem;
+      line-height: 26px;
+      margin: 8px 0; } }
+
+/* publisher */
+@media only screen and (max-width: 500px) {
+  /* line 300, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .publishers_process {
+    padding: 60px 4%; }
+    /* line 302, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .publishers_process h1 {
+      font-size: 1.6rem; }
+    /* line 305, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .publishers_process h3 {
+      font-size: 0.9rem; }
+      /* line 307, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .publishers_process h3 br {
+        display: none; }
+    /* line 311, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .publishers_process img {
+      width: 100%; }
+  /* line 316, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .out_platform {
+    padding: 60px 0 40px; }
+    /* line 318, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .out_platform h1 {
+      font-size: 1.6rem; }
+    /* line 321, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .out_platform .container {
+      width: 98%;
+      margin: 0 auto; }
+      /* line 325, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .out_platform .container .left h3 {
+        font-size: 1.2rem;
+        margin-top: 30px;
+        padding: 0 15px; }
+      /* line 330, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .out_platform .container .left p {
+        font-size: 0.8rem;
+        line-height: 22px;
+        color: #9e9e9e;
+        margin: 15px 0;
+        padding: 0 15px; }
+      /* line 337, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .out_platform .container .left ul {
+        list-style-type: disc;
+        padding-left: 31px; }
+        /* line 340, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .out_platform .container .left ul li {
+          font-size: 0.8rem;
+          color: #9e9e9e;
+          padding: 5px 0; }
+      /* line 347, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .out_platform .container .right {
+        display: inline-block;
+        float: inherit;
+        width: 100%;
+        height: 300px;
+        background-image: url(../img/publishers/platform.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; }
+  /* line 361, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .getstared h2 {
+    padding: 0 20px; } }
+
+/* advertiser */
+@media only screen and (max-width: 500px) {
+  /* line 371, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .advertiser_tab .tab_bottom_line {
+    display: none; }
+  /* line 374, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .advertiser_tab .tab_container {
+    width: 100%; }
+    /* line 376, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container input {
+      display: none; }
+    /* line 379, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container label {
+      display: none; }
+    /* line 382, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container section {
+      display: block;
+      height: auto; }
+    /* line 386, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container #tabs {
+      display: inline-block; }
+      /* line 388, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container #tabs ul {
+        display: block;
+        width: 85%;
+        height: auto;
+        margin: 0 auto; }
+        /* line 394, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container #tabs ul li .addon {
+          margin: 0;
+          padding: 0;
+          font-size: 0.9rem; }
+          /* line 398, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+          .advertiser_tab .tab_container #tabs ul li .addon .m_tab_img {
+            display: block;
+            margin: 0 auto 30px; }
+        /* line 406, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container #tabs ul li a .tag .title {
+          font-size: 1.3rem; }
+        /* line 411, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container #tabs ul li a.first_toggle {
+          padding-top: 0; }
+        /* line 416, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container #tabs ul li:nth-child(1) {
+          margin: 0; }
+      /* line 420, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container #tabs .mobile {
+        display: none; }
+    /* line 424, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container .m_tab_title {
+      display: block;
+      text-align: center;
+      color: #f58655;
+      font-size: 1.6rem;
+      padding: 50px 15px;
+      font-weight: bold; }
+    /* line 432, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container .m_tab_title_2 {
+      border-top: 1px solid #ddd;
+      line-height: 36px; }
+    /* line 436, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_tab .tab_container .tab-content {
+      height: auto;
+      padding-bottom: 60px; }
+      /* line 439, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container .tab-content h1.tab2_h {
+        font-size: 1.3rem;
+        padding: 0 15px;
+        line-height: 36px; }
+      /* line 444, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container .tab-content h3.tab2_p {
+        font-size: 0.85rem;
+        padding: 30px 20px 0; }
+      /* line 448, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container .tab-content .tab2_process {
+        left: 0; }
+        /* line 450, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container .tab-content .tab2_process .process_base_bg {
+          width: 90%; }
+        /* line 453, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container .tab-content .tab2_process .process_arrow_top {
+          background-size: 40px;
+          width: 45px;
+          left: 45px;
+          bottom: 75px; }
+        /* line 459, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+        .advertiser_tab .tab_container .tab-content .tab2_process .process_arrow_bottom {
+          top: 63px;
+          right: 115px;
+          background-size: 40px;
+          width: 45px; }
+      /* line 467, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_tab .tab_container .tab-content a.tab2_contact_btn span {
+        margin: 0; }
+  /* line 474, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .advertiser_graph {
+    padding-bottom: 20px; }
+    /* line 476, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_graph h1 {
+      font-size: 1.6rem;
+      padding: 0 15px; }
+    /* line 480, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_graph h3 {
+      font-size: 0.9rem;
+      padding: 0 15px;
+      margin-bottom: 0; }
+      /* line 484, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+      .advertiser_graph h3 br {
+        display: none; }
+    /* line 488, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_graph .graph_area_common {
+      width: 100%;
+      height: 300px; }
+    /* line 492, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_graph .graph_area {
+      display: none; }
+    /* line 495, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .advertiser_graph .m_graph {
+      display: block;
+      background-size: contain;
+      width: 95%;
+      height: 470px; }
+  /* line 502, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+  .attribute {
+    padding: 55px 0; }
+    /* line 504, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .attribute h5 {
+      margin-bottom: 30px; }
+    /* line 507, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .attribute img {
+      height: 40px;
+      margin: 10px; }
+    /* line 511, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .attribute h2 {
+      font-size: 1.1rem;
+      padding: 0 20px; }
+    /* line 516, /Users/SONG/Desktop/[게임베리]/2017.03[정글엑스]홈페이지/Publishing/css/media.scss */
+    .attribute a span {
+      font-size: 1rem; } }
+
+/*# sourceMappingURL=media.css.map */

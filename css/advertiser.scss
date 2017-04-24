@@ -1,0 +1,409 @@
+/* Variable */
+$main_point: #f58655;
+$main_dark: #001c33;
+$main_dark_gray: #3c4858;
+$transition2: all 0.2s ease-in;
+$transition3: all 0.3s ease-in;
+$transition4: all 0.4s ease-in;
+.transition2 {
+    -webkit-transition: $transition2;
+       -moz-transition: $transition2;
+         -o-transition: $transition2;
+            transition: $transition2;
+}
+.transition3 {
+    -webkit-transition: $transition3;
+       -moz-transition: $transition3;
+         -o-transition: $transition3;
+            transition: $transition3;
+}
+.transition4 {
+    -webkit-transition: $transition4;
+       -moz-transition: $transition4;
+         -o-transition: $transition4;
+            transition: $transition4;
+}
+
+
+
+.advertiser_tab {
+    position: relative;
+    .tab_bottom_line {
+        width: 100%;
+        height: 76px;
+        border-bottom: 1px solid #ddd;
+        z-index: -1;
+        position: absolute;
+    }
+    .tab_container {
+        width: 920px;
+        margin: 0 auto;
+        input, section {
+            clear: both;
+            display: none;
+        }
+
+        label {
+            float: left;
+            width: 335px;
+            height: 75px;
+            line-height: 75px;
+            margin: 0 40px;
+            padding: 0 20px;
+            background-color: white;
+            color: #c1c1c1;
+            text-align: center;
+            cursor: pointer;
+        }
+        .tab-content {
+            height: 650px;
+            .tab2_process {
+                position: relative;
+                left: 12px;
+                .process_base_bg {
+                    background-image: url(../img/advertiser/tab2_process_1-01.jpg);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    width: 800px;
+                    height: 200px;
+                    margin: 0 auto;
+                }
+                
+                .process_arrow {
+                    background-image: url(../img/advertiser/tab2_arrow-02.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: contain;
+                    width: 80px;
+                    height: 21px;
+                    display: inline-block;
+                    position: absolute;
+                }
+                .process_arrow_top {
+                    @extend .process_arrow;
+                    bottom: 65px;
+                    left: 180px;
+                }
+                .process_arrow_bottom {
+                    @extend .process_arrow;
+                    right: 290px;
+                    top: 40px;
+                }
+                .animated {
+                    -webkit-animation-duration: 3s;
+                    animation-duration: 3s;
+                }
+            }
+            
+            .tab_fadeinscale {
+                -webkit-animation: fadeInScale 0.7s ease-in-out;
+                   -moz-animation: fadeInScale 0.7s ease-in-out;
+                        animation: fadeInScale 0.7s ease-in-out;
+            }
+            h1.tab2_h {
+                font-size: 1.87rem;
+                font-weight: 700;
+                color: $main_dark-gray;
+                text-align: center;
+                padding-top: 80px;
+            }
+            h3.tab2_p {
+                font-size: 1rem;
+                font-weight: 500;
+                color: #888888;
+                line-height: 28px;
+                padding: 30px 0 60px;
+            }
+            a.tab2_contact_btn {
+                span {
+                    display: inline-block;
+                    width: 200px;
+                    height: 50px;
+                    margin-top: 60px;
+                    line-height: 50px;
+                    text-align: center;
+                    background-color: white;
+                    color: $main_dark_gray;
+                    border: 1px solid $main_dark_gray;
+                    border-radius: 3px;
+                }
+            }
+            h1, h3, p, a, img, .tab2_process {
+                @extend .tab_fadeinscale;
+            }
+        }
+        .tab-content-2 {
+            text-align: center;
+        }
+    }
+
+    #tab1:checked ~ #content1,
+    #tab2:checked ~ #content2 {
+        display: block;
+    }
+
+    .tab_container [id^="tab"]:checked + label {
+        background: #fff;
+        border-bottom: 2px solid $main_point;
+        color: $main_point;
+    }
+
+    /*Content Animation*/
+    @keyframes fadeInScale {
+        0% { transform: scale(0.9); opacity: 0; }
+        100% { transform: scale(1); opacity: 1; }
+    }
+    
+    #tabs {
+        display: flex;
+        position: relative;
+        overflow: hidden;
+        -webkit-animation: fadeInScale 0.7s ease-in-out;
+           -moz-animation: fadeInScale 0.7s ease-in-out;
+                animation: fadeInScale 0.7s ease-in-out;
+
+        ul {
+            position: relative;
+            display: inline-block;
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+            vertical-align: top;
+            width: 50%;
+            height: 650px;
+            li {
+                a {
+                    position: relative;
+                    display: block;
+                    width: 100%;
+                    text-decoration: none;
+                    color: #3b3b3b;
+                    padding: 20px 0;
+                    z-index: 1;
+                    opacity: .4;
+                    -webkit-transition: 0.3s ease;
+                       -moz-transition: 0.3s ease;
+                         -o-transition: 0.3s ease;
+                            transition: 0.3s ease;
+                }
+                a.active {
+                    opacity: 1;
+                    .fa {
+                        display: inline-block;
+                    }
+                    .bar {
+                        display: none;
+                    }
+                }
+                a:hover {
+                    opacity: .8;
+                }
+                a:focus {
+                    outline: none;
+                }
+            }
+
+            li:focus {
+                outline: none;
+            }
+
+            li:nth-child(1) {
+                margin-top: 130px;
+                a {
+                    border-top: none;
+                }
+            }
+        }
+    }
+    .m_tab_title {
+        display: none;
+    }
+
+    .tag {
+        position: relative;
+        width: 100%;
+
+        .title {
+            display: inline-block;
+            font-size: 1.5rem;
+            font-weight: bold;
+            vertical-align: middle;
+            color: $main_dark;
+            .fa {
+                color: $main_point;
+                margin-right: 5px;
+                display: none;
+            }
+            .bar {
+                position: relative;
+                display: inline-block;
+                width: 12px;
+                margin-right: 10px;
+                border-top: 3px solid $main_dark_gray;
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .addon {
+        position: relative;
+        opacity: 0;
+        font-size: 0.95rem;
+        line-height: 28px;
+        color: #888888;
+        margin-left: 28px;
+        padding-right: 40px;
+        padding-bottom: 10px;
+        .m_tab_img {
+            display: none;
+        }
+    }
+    .fadein {
+        opacity: 1;
+    }
+
+    .mobile {
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        right: 0;
+        .mobile_inner {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 600px;
+            overflow: hidden;
+            background-image: url(../img/advertiser/iPhone6White.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+        }
+        .tabs_common {
+            position: relative;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: 50px 103px;
+            background-size: 354px;
+        }
+        #tabs-1 {
+            @extend .tabs_common;
+            background-image: url(../img/advertiser/tab1_phone-01.jpg);
+        }
+        #tabs-2 {
+            @extend .tabs_common;
+            background-image: url(../img/advertiser/tab1_phone-02.jpg);
+        }
+        #tabs-3 {
+            @extend .tabs_common;
+            background-image: url(../img/advertiser/tab1_phone-03.jpg);
+        }
+        #tabs-4 {
+            @extend .tabs_common;
+            background-image: url(../img/advertiser/tab1_phone-04.jpg);
+        }
+    }
+}
+
+
+.advertiser_graph {
+    background-color: $main_dark_gray;
+    padding: 60px 0;
+    text-align: center;
+    h1 {
+        color: white;
+        font-size: 1.78rem;
+        font-weight: bold;
+    }
+    h3 {
+        color: rgba(255, 255, 255, 0.5);
+        line-height: 24px;
+        font-size: 1rem;
+        margin: 20px 0 30px;
+    }
+    .graph_area {
+        position: relative;
+        width: 1000px;
+        height: 470px;
+        margin: 0 auto;
+        overflow: hidden;
+        .graph_common {
+            position: absolute;
+            left: 0;
+            right: 0;
+            display: inline-block;
+            width: 1000px;
+            height: 470px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .graph_base {
+            @extend .graph_common;
+            background-image: url(../img/advertiser/ad_process_base.png);
+            z-index: 1;
+        }
+        .graph_date {
+            @extend .graph_common;
+            background-image: url(../img/advertiser/ad_process_graph.png);
+        }
+        
+    }
+    .m_graph {
+        display: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 800px;
+        height: 750px;
+        margin: 0 auto;
+        background-image: url(../img/advertiser/m_advertiser_graph.png);
+    }
+}
+
+
+
+.attribute {
+    border-top: 1px solid #ddd;
+    //border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 70px 0;
+    h5 {
+        color: #8d8d8d;
+        font-size: 0.82rem;
+    }
+    img {
+        vertical-align: middle;
+        margin: 25px 15px;
+    }
+    h2 {
+        color: $main_dark_gray;
+        font-size: 1.2rem;
+        line-height: 32px;
+        margin: 30px 0 40px;
+    }
+    a {
+        .transition2 {
+            -webkit-transition: $transition3;
+               -moz-transition: $transition3;
+                 -o-transition: $transition3;
+                    transition: $transition3;
+        }
+        span{
+            display: inline-block;
+            font-size: 1.1rem;
+            background-color: white;
+            border: 1px solid $main_dark_gray;
+            color: $main_dark_gray;
+            width: 200px;
+            height: 54px;
+            line-height: 54px;
+            text-align: center;
+            border-radius: 5px; 
+            @extend .transition2;
+        }
+        span:hover {
+            box-shadow: 0 2px 6px #ddd;
+        }
+    }
+}

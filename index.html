@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <meta name="description" content="JungggleX is a premium ad-network">
+        <meta name="keywords" content="정글엑스,JungggleX,junggglex">
+        
+        <meta name="naver-site-verification" content="816b9351afdd28892243b73a6d7a16f5239acb5e"/>
+        <meta name="robots" content="index, follow">
+        
+        <meta property="og:type" content="junggglexwebsite">
+        <meta property="og:title" content="junggglex">
+        <meta property="og:description" content="JungggleX is a premium ad-network">
+        <meta property="og:image" content="http://www.junggglex.com/shortcut.png">
+        <meta property="og:url" content="http://www.junggglex.com">
+        
+        <link rel="canonical" href="http://www.junggglex.com">
+        
+        <title>JungggleX</title>
+        <link rel="shortcut icon" type="image/png" href="img/shortcut.png">
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style_banner.css">
+        <link rel="stylesheet" href="css/media.css">
+        
+        <script src="https://use.fontawesome.com/5303e3cdc4.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".textarea").on("keyup", function(){
+          textarea_resize(this, 10);
+        });
+
+        $(".scroll").click(function(event) {
+          event.preventDefault();
+          $('html, body').animate({scrollTop:$(this.hash).offset().top}, 450);
+        });
+      });
+
+      function textarea_resize(obj, offset) {
+         obj.style.height = "1px";
+         obj.style.height = (obj.scrollHeight + offset) + "px";
+      }
+
+
+      function initialize() {
+        var myLatlng = new google.maps.LatLng(37.494074, 127.011856);
+        var mapOptions = {
+          zoom: 16,
+          center: myLatlng,
+          scrollwheel: false
+        }
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        var marker = new google.maps.Marker({
+            position: myLatlng,
+            map: map,
+            title: 'Gameberry'
+        });
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+        
+        
+    </head>
+
+    <body>
+        <!-- <canvas></canvas> -->
+        <div class="banner_bg">
+            <video autoplay loop>
+                <source src="video/h_banner_50s.mp4" type="video/mp4">
+            </video>
+        </div>
+        <!-- Section 1 : Banner -->
+        <div class="banner">
+            <header>
+                <div class="left">
+                    <a href="#"><img src="img/h_logo.svg" alt="logo"></a>
+                </div>
+                <ul class="center">
+                    <li><a href="about.html" class=""><span>About</span></a></li>
+                    <li><a href="advertiser.html" class=""><span>Advertisers</span></a></li>
+                    <li><a href="publisher.html" class=""><span>Publishers</span></a></li>
+                    <li><a href="#contact" class=""><span>Contact Us</span></a></li>
+                </ul>
+                <div class="m_menu_bar">
+                    <a href="#m_menu_open" class="m_bar"><img src="img/m_menu_bar.png" alt="menu"></a>
+                    
+                    <div id="m_menu_open" class="modal-window">
+                        <div class="modla_content">
+                            <div class="top">
+                                <a href="index.html" class="m_logo"><img src="img/h_logo.svg" alt="logo"></a>
+                                <a href="#modal-close" class="close-modal modal-close"><img src="img/m_close.png" alt="close"></a>
+                            </div>
+                            <ul class="m_header">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="advertiser.html">Advertisers</a></li>
+                                <li><a href="publisher.html">Publishers</a></li>
+                                <li><a href="index.html#contact">Contact</a></li>
+                            </ul>
+                            <div class="m_sns">
+                                <a href="https://www.facebook.com/gameberrypage" target="_blank">
+                                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                                </a>
+                                <a href="https://www.linkedin.com/company-beta/3331600" target="_blank">
+                                    <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                                </a>
+                            </div>
+                            <a href="signup.html" class="m_sign_up"><span>Sign Up</span></a>
+                        </div>
+                    </div>
+                </div>                
+                
+                <div class="right">
+                    <a href="signup.html"><span>Sign Up</span></a>
+                </div>
+            </header>
+            <h1 class="title">JungggleX is <br>a <span>premium</span> ad-network</h1>
+        </div>
+        <!-- END : Section 1 -->
+        
+        <!-- Section 2 : number -->
+        <div class="number">
+            <div class="container">
+                <div class="num_common">
+                    <h1>50+</h1>
+                    <h5>Countries</h5>
+                </div>
+                <div class="num_common">
+                    <h1>300+</h1>
+                    <h5>Advertisers</h5>
+                </div>
+                <div class="num_common">
+                    <h1>100M</h1>
+                    <h5>Unique Users</h5>
+                </div>
+                <div class="num_common">
+                    <h1>300M</h1>
+                    <h5>Clicks Monthly</h5>
+                </div>
+            </div>
+        </div>
+        <!-- END : Section 2 -->
+        
+        <!-- Section 3 : diagram -->
+        <div class="diagram">
+            <h1>JungggleX's powerful UA solution</h1>
+            <h3>We've been accumulating audience data which leads us<br>to provide high quality users and maximize the campaign ROAS.</h3>
+            <img src="img/main_diagram.png" alt="diagram" class="diagram">
+            <img src="img/m_main_diagram.png" alt="diagram" class="m_diagram">
+        </div>
+        <!-- END : Section 3 -->
+        <div class="page_summary">
+            <div class="summary_common">
+                <div class="info advertiser_info">
+                    <h1>Advertiser Solution</h1>
+                    <img src="img/advertisers_sum.png" alt="advertisers_summary_img" class="m_page_summary_img">
+                    <p>Our UA solution acquires the profitable users by managing premium inventories and audiences that have scored high purchase rate constantly. Experience the high quality traffic and increase the ROAS of the campaign.</p>
+                    <a href="advertiser.html"><span>Learn more</span></a>
+                </div>
+                <div class="diagram advertiser_diagram">
+                    <img src="img/advertisers_sum.png" alt="advertisers_summary_img">
+                </div>
+            </div>
+            
+            <div class="summary_common">
+                <div class="diagram publishers_diagram">
+                    <img src="img/publishers_sum.png" alt="publishers_summary_img">
+                </div>
+                <div class="info publishers_info">
+                    <h1>Publisher Solution</h1>
+                    <img src="img/publishers_sum.png" alt="publishers_summary_img" class="m_page_summary_img">
+                    <p>Increase your revenue with JungggleX's top level offers. Our solution analyzes and compares the offers from the top advertisers and serves you the most profitable offer.</p>
+                    <a href="publisher.html"><span>Learn more</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- Section 4 : trusted by -->
+        <div class="trusted">
+            <h5>Trusted by</h5>
+            <img src="img/main_trusted_by/trusted_by-01.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-02.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-03.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-04.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-05.png" alt="trusted_logo">
+            <br>
+            <img src="img/main_trusted_by/trusted_by-06.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-07.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-08.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-09.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-10.png" alt="trusted_logo">
+            <img src="img/main_trusted_by/trusted_by-11.png" alt="trusted_logo">
+        </div>
+        <!-- END : Section 4 -->
+        
+        <!-- Section 5 : contact us -->
+        <div class="contact_us" id="contact">
+            <h1>Contact Us</h1>
+            <h3>We'll get back to you as soon as possible</h3>
+            <div class="info">
+                <h4><img src="img/contact_icon_01.svg" alt="location"> 401 Seodo B/D 1712-8 Seocho-dong Seocho-gu Seoul, Korea</h4>
+                <h4><img src="img/contact_icon_02.svg" alt="main"> contact@junggglex.com</h4>
+            </div>
+        </div>
+        <!-- <div id="map" style="height: 350px; width: 100%;"></div> -->
+        <div class="map" style="position: relative; top: 3px;">
+            <div id="map-canvas" style="width: 100%; height: 350px; display: inline-block;"></div>
+        </div>
+        <!-- END : Section 5 -->
+        
+        <footer>
+            <ul>
+                <li><a href="about.html"><span>About</span></a></li>
+                <li><a href="advertiser.html"><span>Advertisers</span></a></li>
+                <li><a href="publisher.html"><span>Publishers</span></a></li>
+                <li><a href="index.html#contact"><span>Contact Us</span></a></li>
+                <li><a href="signup.html"><span>Sign Up</span></a></li>
+            </ul>
+            <div class="sns">
+                <a href="https://www.facebook.com/gameberrypage" target="_blank">
+                    <span><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                </a>
+                <a href="https://www.linkedin.com/company-beta/3331600" target="_blank">
+                    <span><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                </a>
+            </div>
+            <img src="img/f_logo.svg" alt="logo">
+            <h5>Copyright (c) 2017. All rights reserved.</h5>
+        </footer>
+        
+        
+        
+        <!-- <script>
+          function initMap() {
+            var myLatLng = {lat: -37.494266, lng: 127.011879};
+
+            // Create a map object and specify the DOM element for display.
+            var map = new google.maps.Map(document.getElementById('map'), {
+              center: myLatLng,
+              scrollwheel: false,
+              zoom: 10
+            });
+
+            // Create a marker and set its position.
+            var marker = new google.maps.Marker({
+              map: map,
+              position: myLatLng,
+              title: 'Hello World!'
+            });
+          }
+
+        </script> -->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB__td0fHvUWj6fMPkUNLvaNNF6yszsDuo&callback=initMap"
+        async defer></script> 
+        
+        <!-- <script src="js/banner.js"></script> -->
+    </body>
+</html>
+
+
